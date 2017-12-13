@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ngSocial App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app/app.css">
+</head>
+<body>
+
+    <button type="button" class="btn btn-secondary btn-lg btn-block">
+         <div class="container mx-auto">
+             <a class="navbar-brand" href="#">ngSocial</a>
+         </div>
+     </button>
+
+
+    <div class="container">
+        <div ng-view></div>
+    </div>
+
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+-->
+    <script src="app/bower_components/angular/angular.js"></script>
+    <script src="app/bower_components/angular-route/angular-route.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/facebook/facebook.js"></script>
+</body>
+</html>
