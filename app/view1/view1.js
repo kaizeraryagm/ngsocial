@@ -1,9 +1,9 @@
 'use strict';
 
-angular.module('myApp.view1', ['ngRoute'])
+angular.module('ngSocial.view1', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('app/view1', {
+  $routeProvider.when('view1', {
     templateUrl: 'app/view1/view1.html',
     controller: 'View1Ctrl'
   });
