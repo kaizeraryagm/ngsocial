@@ -1,8 +1,8 @@
 'use strict';
 
-describe('ngSocial.view1 module', function() {
+describe('myApp.view1 module', function() {
 
-  beforeEach(module('ngSocial.view1'));
+  beforeEach(module('myApp.view1'));
 
   describe('view1 controller', function(){
 
