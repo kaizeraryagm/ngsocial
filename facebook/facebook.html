@@ -9,15 +9,15 @@
                 <button type="button" class="btn btn-default" ng-click="logout()">Log Out</button>
             </div>
             <br><br>
-            <div class="well">
+            <div class="well" ng-if="isLoggedIn == true">
                 <h4>User Info</h4>
                 <ul>
-                    <li>ID: someID</li>
-                    <li>First Name: John</li>
-                    <li>Last Name: Doe</li>
-                    <li>Email: John@gmail.com</li>
-                    <li>Gender: Male</li>
-                    <li>Locale: enGB</li>
+                    <li>ID: {{userInfo.id}}</li>
+                    <li>First Name: {{userInfo.first_name}}</li>
+                    <li>Last Name: {{userInfo.last_name}}</li>
+                    <li>Email: {{userInfo.email}}</li>
+                    <li>Gender: {{userInfo.gender}}</li>
+                    <li>Locale: {{userInfo.locale}}</li>
                 </ul>
             </div>
             <br>
