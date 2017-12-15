@@ -53,4 +53,6 @@ angular.module('ngSocial.facebook', ['ngRoute', 'ngFacebook'])
             $scope.welcomeMsg = "Please Log in to your account";
         });
     }
+
+    refresh();
 }]);
